@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-calculator-sdk"
+version = "0.1.0"
+description = "A simple calculator SDK written in Python"
+readme = "README.md"
+
+authors = [
+    { name = "Nick", email = "nick@example.com" }
+]
+
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/yourname/my-calculator-sdk"
