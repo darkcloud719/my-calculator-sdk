@@ -1,9 +1,20 @@
 # My Calculator SDK
 
-A simple Python SDK that provides basic calculator functions.
+A simple and lightweight Python calculator SDK that provides basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-## Installation
+This project is designed as an example of a well-structured Python package and can be published to PyPI or TestPyPI.
 
-```bash
+---
+
+## 📦 Installation
+
+Install the package using `pip`:
+
+```bach
 pip install my-calculator-sdk
 
+
+If you are installing from TestPYPI
+
+```bash
+pip install -i https://test.pypi.org/simple/ my-calculator-sdk
